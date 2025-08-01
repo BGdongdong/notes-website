@@ -1,37 +1,39 @@
-			.head{
-				background-color: #11B5AE;
-			}
-			p{
-				text-indent: 0em;
-			}
 			.content{
-				width: 50%;
-				height: 462px;
-				margin: 0px auto;
-				margin-bottom: 50px;
+				width: 60%;
+				height: 300px;
+				margin: 50px auto;
 			}
-			.title{
-				font-family: "微软雅黑";
-				color: black;
-				font-size: 35px;
-				font-weight: 700;
-				margin-top:35px ;
+			.h2{
+				font-family: "楷体";
+				font-size: 26px;
+				font-weight: 600;
+				margin-bottom: 15px;
 			}
-			.c1 ul{
-				margin-top: 20px;
+			.h2:hover{
+				color: #337ab7;
 			}
-			.c2 ul{
-				margin-top: 20px;
-			}
-			.c3 ul{
-				margin-top: 20px;
-			}
-			.content a{
-				color: cornflowerblue;
-			}
-			.content p{
+			.text{
+				font-family: "宋体";
+				font-size: 16px;
+				font-weight: 600px;
 				margin-bottom: 10px;
+				color: #a3a3a3;
+				height: 60px;
+				width: 100%;
+				overflow: hidden;
+				text-overflow: ellipsis;
 			}
-			.content li{
-				margin-top: 8px;
+			.text:hover{
+				color:#2b79c3;
+			}
+			.text_en{
+				font-family: "lora","times new roman";
+				font-size: 18px;
+				font-weight: 400px;
+				margin-bottom: 10px;
+				color: #808080;
+			}
+			.item{
+				margin-bottom: 30px;
+				border-bottom: 1px solid gainsboro;
 			}
